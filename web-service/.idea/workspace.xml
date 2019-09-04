@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="401ad891-5c81-4c7f-a9d2-87289365bdc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/templates/bootstrap_sb_admin.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cover_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cover_page.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/cover_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="435" selection-start-line="33" selection-start-column="435" selection-end-line="33" selection-end-column="435" />
+            <state relative-caret-position="138">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -68,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/public/css/cover.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
-              <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -304,12 +303,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567636537776</updated>
-      <workItem from="1567636539643" duration="1098000" />
+      <workItem from="1567636539643" duration="1298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1098000" />
+    <option name="totallyTimeSpent" value="1298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1639" height="1027" extended-state="6" />
@@ -365,7 +364,7 @@
     <entry file="file://$PROJECT_DIR$/public/css/cover.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
-          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -381,8 +380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/cover_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="435" selection-start-line="33" selection-start-column="435" selection-end-line="33" selection-end-column="435" />
+        <state relative-caret-position="138">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
