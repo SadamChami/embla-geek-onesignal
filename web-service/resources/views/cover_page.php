@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <link rel="icon" href="favicon.ico">
 
     <title>Embla Geeks</title>
 
@@ -29,7 +29,7 @@
     </header>
 
     <main role="main" class="inner cover">
-        <img src="icons/embla.png" />
+        <img src="<?php echo asset('images/embla.png') ?>" />
         <h1 class="cover-heading">Embla Geeks</h1>
         <p class="lead">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies sapien vel sollicitudin. Donec porttitor nisi sed cursus finibus. Suspendisse in malesuada mi. Fusce ac dolor vitae eros dictum hendrerit eget vel tellus. Aliquam sed tempor odio, et pharetra ligula. Vestibulum tincidunt eros nunc, a tristique nunc venenatis in. Aliquam sollicitudin ex a vehicula efficitur. In hac habitasse platea dictumst.
