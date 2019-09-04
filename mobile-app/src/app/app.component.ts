@@ -10,6 +10,7 @@ import { DialogBox } from './shared/components/dialog-box';
 import { LocalStorage } from './core/dataservice/local-storage.dataservice';
 import { OnesignalDevice } from './core/model/onesignal-device.model';
 import { DataStorageService } from './core/dataservice/data-storage.dataservice';
+import { NotificationData, NotificationOpened } from './core/model/onesignal-notification';
 
 @Component({
   selector: 'app-root',
@@ -39,16 +40,21 @@ export class AppComponent {
 
   private _initOneSignal() {
     this.oneSignal.startInit(ONESIGNAL_APP_ID, FIREBASE_PROJECT_ID);
-    this.oneSignal.inFocusDisplaying(this.oneSignal.OSInFocusDisplayOption.InAppAlert);
-    this.oneSignal.handleNotificationReceived().subscribe((_data: OSNotification) => {
+    this.oneSignal.inFocusDisplaying(this.oneSignal.OSInFocusDisplayOption.None);
+    this.oneSignal.handleNotificationReceived().subscribe((_data: any) => {
       // do something when notification is received
-      console.log('handleNotificationReceived', _data);
-      this.dialogBox.showSuccess(JSON.stringify(_data));
+      // console.log('handleNotificationReceived', _data);
+      let notificationData = _data as NotificationData;
+      console.log('notificationData-base', notificationData);
+      this._dataStorageService.updateNotificationData(notificationData);
+      // this.dialogBox.showSuccess(JSON.stringify(_data));
     });
-    this.oneSignal.handleNotificationOpened().subscribe((_data: OSNotificationOpenedResult) => {
+    this.oneSignal.handleNotificationOpened().subscribe((_data: any) => {
       // do something when a notification is opened
-      console.log('handleNotificationOpened', _data);
-      this.dialogBox.showSuccess(JSON.stringify(_data));
+      // console.log('handleNotificationOpened', _data);
+      let notificationData = _data as NotificationOpened;
+      this._dataStorageService.updateNotificationData(notificationData.notification);
+      // this.dialogBox.showSuccess(JSON.stringify(_data));
     });
     this.oneSignal.getIds().then(_id => {
       this._dataStorageService.updateOnesignalDevice(_id as OnesignalDevice);
