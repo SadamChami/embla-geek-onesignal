@@ -29,6 +29,7 @@
     </header>
 
     <main role="main" class="inner cover">
+        <img src="icons/embla.png" />
         <h1 class="cover-heading">Embla Geeks</h1>
         <p class="lead">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies sapien vel sollicitudin. Donec porttitor nisi sed cursus finibus. Suspendisse in malesuada mi. Fusce ac dolor vitae eros dictum hendrerit eget vel tellus. Aliquam sed tempor odio, et pharetra ligula. Vestibulum tincidunt eros nunc, a tristique nunc venenatis in. Aliquam sollicitudin ex a vehicula efficitur. In hac habitasse platea dictumst.
