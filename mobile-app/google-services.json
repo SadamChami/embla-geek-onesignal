@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "4238382738",
+    "firebase_url": "https://embla-geek-onesignal.firebaseio.com",
+    "project_id": "embla-geek-onesignal",
+    "storage_bucket": "embla-geek-onesignal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4238382738:android:a7f1077e9572e6aac4784b",
+        "android_client_info": {
+          "package_name": "asia.embla.geek.onesignal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4238382738-36pe5e91ffto5hi6cp04helsg7lcjuko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABNA_Vlmex8rqgb3wnTXMRDJGOEZ_HGqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4238382738-36pe5e91ffto5hi6cp04helsg7lcjuko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,3 @@
+
+export const ONESIGNAL_APP_ID = "6f9e1a0e-5b77-488c-919c-12ad70ee1e10";
+export const FIREBASE_PROJECT_ID = "4238382738";

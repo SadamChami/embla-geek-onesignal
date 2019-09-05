@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      OneSignal Push Service
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button size="small" (click)="clearNotifications()">Clear All</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-item>
+      <ion-label position="stacked">Device Token</ion-label>
+      <ion-textarea value="{{ onesignalDevice.userId }}" disabled></ion-textarea>
+    </ion-item>
+
+    <ion-list>
+      <ion-item *ngFor="let notification of notificationData">
+        <ion-label text-wrap>
+          <ion-text color="primary">
+            <h3>{{ notification.payload.title }}</h3>
+          </ion-text>
+          <p>{{ notification.payload.body }}</p>
+          <ion-text color="secondary">
+            <p>{{ notification.payload.notificationID }}</p>
+          </ion-text>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
